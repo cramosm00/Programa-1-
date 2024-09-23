@@ -1,0 +1,9 @@
+# Llamada 1: Solo con el monto total de la compra
+monto1 = 100  # Ejemplo de monto total
+descuento1 = calcular_descuento(monto1)
+print(f"Descuento: {descuento1}, Monto final: {monto1 - descuento1}")
+
+# Llamada 2: Con el monto total y un porcentaje de descuento personalizado
+monto2 = 200  # Ejemplo de monto total
+descuento2 = calcular_descuento(monto2, 15)  # Usando un descuento del 15%
+print(f"Descuento: {descuento2}, Monto final: {monto2 - descuento2}")
